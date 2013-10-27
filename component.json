@@ -1,0 +1,17 @@
+{
+  "name": "is-fibonacci",
+  "repo": "hkjels/is-fibonacci",
+  "description": "Check if a number is in the Fibonacci sequence",
+  "version": "0.0.1",
+  "keywords": ["fibonacci", "number", "validation"],
+  "dependencies": {
+    "KenanY/isInteger": "1.0.3"
+  },
+  "development": {
+    "component/assert": "*",
+    "visionmedia/mocha": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": ["index.js"]
+}
