@@ -3,17 +3,8 @@
  * Module dependencies.
  */
 
-var isInteger = require('isInteger');
-
-/**
- * Fibonacci sequence.
- */
-
-var sequence = (function (n) {
-  return Array.apply(0, Array(n)).reduce(function(x, y, z) {
-    return x.concat((z < 2) ? z : x[z-1] + x[z-2]);
-  }, []);
-})(20);
+var isInteger = require('isInteger')
+  , sequence = require('fibonacci')(20);
 
 /**
  * Expose `isFibonacci`.
