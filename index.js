@@ -3,8 +3,8 @@
  * Module dependencies.
  */
 
-var isInteger = require('isInteger')
-  , sequence = require('fibonacci')(20);
+var isInteger = require('KenanY-isInteger')
+  , sequence = require('hkjels-fibonacci')(20);
 
 /**
  * Expose `isFibonacci`.

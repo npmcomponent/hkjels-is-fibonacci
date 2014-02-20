@@ -1,0 +1,16 @@
+{
+  "name": "hkjels-is-fibonacci",
+  "description": "Check if a number is in the Fibonacci sequence",
+  "version": "0.0.2",
+  "keywords": [
+    "fibonacci",
+    "number",
+    "validation"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "hkjels-fibonacci": "git://github.com/npmcomponent/hkjels-fibonacci.git",
+    "KenanY-isInteger": "git://github.com/npmcomponent/KenanY-isInteger.git"
+  },
+  "license": "MIT"
+}
